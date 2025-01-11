@@ -324,15 +324,18 @@ p {
   /* Auto layout */
   display: flex;
   flex-direction: row;
-  justify-content:  center;
+  justify-content: center;
   align-items: center;
   gap: 24px;
   padding: 0px;
+  margin: 0 auto;
 }
 #donation p {
+  position: static;
   max-width: 1104px;
-  margin-right: 24px;
-  margin-left: 24px;
+  margin: 0 auto;
+  /* margin-right: 24px;
+  margin-left: 24px; */
 }
 
 #donation .card {
@@ -350,4 +353,48 @@ p {
   line-height: 48px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+#donation form {
+  display: flex;
+  width: 1032px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  margin-top: 32px;
+}
+input {
+  display: block;
+  width: 1032px;
+  padding: 20px 40px 20px 40px;
+  border: none;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#donation .btn-primary {
+  margin: 0 auto;
+  margin-top: 32px;
+}
+#donation .btn-primary button {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 17px 34px 17px 34px;
 }
