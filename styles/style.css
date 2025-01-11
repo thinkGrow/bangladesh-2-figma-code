@@ -24,6 +24,16 @@ body {
   text-align: left;
 }
 
+p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  /* text-align: left; */
+}
+
 #banner {
   display: flex;
   justify-content: center;
@@ -156,4 +166,56 @@ body {
   margin: 80px 0px; */
 }
 
+#future {
+  /* display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+  /* align-items: center; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* background-color: #f0f0f0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    max-width: 1280px;
+    height: 560px; */
 
+  width: 1280px;
+  height: 765px;
+  margin: 0 auto;
+}
+
+#future .cards {
+  display: flex;
+  gap: 24px;
+  text-align: left;
+  justify-content: center;
+}
+
+#future p {
+  margin: 6px 0px;
+  margin-bottom: 24px;
+}
+
+#future .cards .card {
+  max-width: 410px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+#future .learn-more-btn {
+  border-radius: 8px;
+  border: none;
+  padding: 11px 20px 11px 20px;
+  /* color: white; */
+
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
