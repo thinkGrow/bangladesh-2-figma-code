@@ -6,6 +6,7 @@
 body {
   background: rgb(245, 245, 245);
 }
+
 .btn-secondary {
   display: flex;
   justify-content: space-between;
@@ -397,4 +398,19 @@ input {
   letter-spacing: 0%;
   text-align: left;
   padding: 17px 34px 17px 34px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 32;
+  padding: 50px 160px 50px 160px;
+  text-align: center;
+}
+
+footer .socials {
+  margin-top: 32.5px;
+  display: flex;
+  gap: 23px;
+  justify-content: center;
 }
