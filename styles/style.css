@@ -181,8 +181,8 @@ p {
     max-width: 1280px;
     height: 560px; */
 
-  width: 1280px;
-  height: 765px;
+  max-width: 1280px;
+  height: 1406px;
   margin: 0 auto;
 }
 
@@ -190,7 +190,7 @@ p {
   display: flex;
   gap: 24px;
   text-align: left;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 #future p {
@@ -203,6 +203,7 @@ p {
   box-sizing: border-box;
   border-radius: 16px;
   padding: 32px;
+  height: 325px;
 }
 
 #future .learn-more-btn {
@@ -218,4 +219,81 @@ p {
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+#recent-news {
+  max-width: 1280px;
+  height: 765px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+#recent-news .cards {
+  width: 1280px;
+  height: 1254px;
+  display: flex;
+  gap: 32;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  justify-content: flex-start;
+  /* flex-wrap: wrap; */
+  /* padding: 48px; */
+}
+
+#recent-news .cards .card-box {
+  border-radius: 24px;
+  background-color: white;
+  /* flex-direction: column; */
+  max-width: 1280px;
+  max-height: 402px;
+  padding: 48px;
+  display: flex;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+#recent-news .cards .card-content {
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  max-height: 210px;
+  max-width: 744px;
+}
+
+#recent-news .card-img {
+  /* object-fit: cover; */
+  background-color: white;
+
+  max-height: 306px;
+  max-width: 1280px;
+}
+
+#recent-news .card-img img {
+  object-fit: cover;
+}
+
+#recent-news .read-more-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 48;
+  margin-top: 16px;
+  /* padding: 13px 26px 13px 26px; */
+  /* border-radius: 8px; */
+  /* background: rgb(0, 106, 80); */
+}
+
+#recent-news .read-more-btn button {
+  border: none;
+  /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48; */
+  padding: 13px 26px 13px 26px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
 }
