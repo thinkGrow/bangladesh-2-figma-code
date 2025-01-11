@@ -266,6 +266,36 @@ p {
   text-align: left;
 }
 
+#yunus {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+
+  max-width: 1280px;
+  height: 256px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12;
+  /* padding: 0px; */
+  margin: 0 auto;
+  margin-top: 32px;
+  padding: 48px 24px 48px 24px;
+  /* Centers the image */
+  /* background-position: center; */
+}
+
+.bg {
+  background-image: url("../assets/quote.svg");
+  background-position: top left, top left;
+  background-repeat: no-repeat;
+  /* background: rgba(14, 14, 14, 0.3); */
+}
+
 #recent-news {
   max-width: 1280px;
   height: 1406px;
