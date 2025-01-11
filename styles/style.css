@@ -1,7 +1,9 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
-} */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
   background: rgb(245, 245, 245);
@@ -41,6 +43,7 @@ p {
 #banner {
   display: flex;
   justify-content: center;
+  /* justify-content: space-between; */
   /* flex-direction: column; */
   /* align-items: center; */
   margin: 0 auto;
@@ -52,28 +55,30 @@ p {
   background: rgb(198, 228, 214);
   max-width: 1280px;
   height: 560px;
+  gap: 64px;
+
+  /* padding: 0 0px; */
 }
 
 #banner .banner-content {
   display: flex;
   flex-direction: column;
-  max-width: 622px;
-  height: 326px;
-  /* padding: 116px 60px; */
-
-  /* Frame 3 */
-  /* position: static; */
   width: 622px;
-  height: 326px;
-  /* Auto layout */
+  min-height: 201px;
+  /* height: 326px; */
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
-  /* align-items: flex-start; */
-  /* gap: 24; */
-  /* padding: 117px 0; */
-  margin: 117px 60px;
+  /* align-items: center; */
+  text-align: left;
+  margin: auto 0;
+
+  /* justify-content: center; */
+
+  /* margin: 117px 60px; */
 }
+
+/* #banner .banner-content .btn-primary {
+} */
 
 #banner .banner-content p {
   color: rgba(14, 14, 14, 0.5);
@@ -83,7 +88,7 @@ p {
   line-height: 29px;
   letter-spacing: 0%;
   text-align: left;
-  margin: 16px 0px;
+  /* margin: 16px 0px; */
 }
 
 #banner .banner-content h1 {
@@ -94,11 +99,14 @@ p {
   line-height: 67px;
   letter-spacing: 0%;
   text-align: left;
+  margin-top: 16px;
+  margin-bottom: 24px;
   /* margin: 16px 0px; */
 }
 
 #banner .btn-primary button {
   border-radius: 8px;
+  border: none;
   background: rgb(0, 106, 80);
 
   color: rgb(255, 255, 255);
@@ -117,6 +125,10 @@ p {
   max-width: 474px;
   height: 329px;
   padding: 106px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
 }
 
 #pillar {
@@ -133,7 +145,7 @@ p {
   /* background-position: center; */
   gap: 24px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   align-items: flex-start;
 }
