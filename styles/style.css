@@ -296,6 +296,21 @@ p {
   /* background: rgba(14, 14, 14, 0.3); */
 }
 
+#opinion {
+  margin-top: 80px;
+  width: 1280px;
+  height: 481px;
+  /* margin-bottom: 24px; */
+}
+
+#opinion .table-container {
+  width: 1280px;
+  height: 409px;
+  border-radius: 16px;
+  margin-top: 24px;
+  background: rgb(255, 255, 255);
+}
+
 #recent-news {
   max-width: 1280px;
   height: 1406px;
@@ -447,6 +462,7 @@ p {
   background: rgb(255, 255, 255);
   margin-top: 32px;
 }
+
 input {
   display: block;
   width: 1032px;
