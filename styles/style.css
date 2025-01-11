@@ -13,6 +13,9 @@ body {
   padding: 0.5rem 1rem;
   list-style-type: none;
 }
+.text-align-center {
+  text-align: center;
+}
 
 .title {
   color: rgb(14, 14, 14);
@@ -21,7 +24,7 @@ body {
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0%;
-  text-align: left;
+  /* text-align: left; */
 }
 
 p {
@@ -223,7 +226,7 @@ p {
 
 #recent-news {
   max-width: 1280px;
-  height: 765px;
+  height: 1406px;
   margin: 0 auto;
   margin-bottom: 80px;
 }
@@ -296,4 +299,55 @@ p {
   padding: 13px 26px 13px 26px;
   border-radius: 8px;
   background: rgb(0, 106, 80);
+}
+
+#donation {
+  max-width: 1280px;
+  height: 464px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* padding: 160px; */
+  /* box-sizing: border-box; */
+  /* Auto layout */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32;
+  padding: 0px; */
+}
+
+#donation .card-box {
+  width: 1071px;
+  height: 128px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content:  center;
+  align-items: center;
+  gap: 24px;
+  padding: 0px;
+}
+#donation p {
+  max-width: 1104px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+#donation .card {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  /* width: 240px; */
+  height: 128px;
+  padding: 40px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
 }
