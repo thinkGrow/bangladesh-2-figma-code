@@ -465,3 +465,9 @@ footer .socials {
   gap: 23px;
   justify-content: center;
 }
+
+hr {
+  max-width: 1122px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  margin: 0 auto;
+}
