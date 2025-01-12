@@ -26,8 +26,8 @@ body {
   list-style-type: none;
   max-width: 1600px;
   max-height: 100px;
-  padding: 24px 160px 24px 160px;
-  margin: auto 30px;
+  padding: 24px 120px 24px 120px;
+  /* margin: 0 20px; */
 }
 
 .btn-secondary {
@@ -569,10 +569,68 @@ input {
   padding: 17px 34px 17px 34px;
 }
 
+#subscribe {
+  display: flex;
+  width: 1280px;
+  max-height: 395px;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 80px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 80px 0 80px 0;
+  /* padding: 10px auto; */
+  justify-content: center;
+  align-items: center;
+}
+
+#subscribe .submit-box {
+  display: flex;
+  width: 750px;
+  height: 56px;
+}
+
+#subscribe .submit-box input {
+  max-width: 600px;
+  max-height: 55px;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+}
+
+#subscribe .submit-box .subscribe-btn {
+  width: 150px;
+  height: 56px;
+}
+
+#subscribe button {
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 17px 34px 17px 34px;
+  border-radius: 0px 8px 8px 0px;
+
+  background: rgb(0, 106, 80);
+}
+
+#subscribe .caption {
+  width: 622px;
+  height: 48px;
+  text-align: center;
+}
+#subscribe .submit-box {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 footer {
   background-color: white;
   margin-top: 80px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   gap: 32;
   padding: 50px 160px 50px 160px;
   text-align: center;
