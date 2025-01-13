@@ -188,6 +188,10 @@ p {
   padding: 24px;
 }
 
+#pillar .cards .card p {
+  margin-top: 12px;
+}
+
 #opinion {
   margin-top: 24px;
   margin: auto;
@@ -671,4 +675,15 @@ hr {
   max-width: 1122px;
   border: 1px solid rgba(14, 14, 14, 0.1);
   margin: 0 auto;
+}
+
+button {
+  cursor: pointer; /* Change cursor to a pointer */
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  background-color: rgba(115, 11, 11, 0.708);
+  color: black;
+  transform: scale(1.1); 
 }
