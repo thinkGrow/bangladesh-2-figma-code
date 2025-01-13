@@ -235,11 +235,14 @@ p {
 
 #opinion .box-content {
   width: 1017px;
-  height: 92px;
+  height: 93px;
   padding: 24px;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   background: rgba(255, 255, 255, 0.1);
+  outline: none;
+  display: flex;
+  align-items: center;
 }
 
 #opinion .box-option {
@@ -541,7 +544,7 @@ select {
   text-align: left;
   background-color: rgba(115, 11, 11, 0.708); /* Change background color */
   color: white; /* Change text color */
-  transform: scale(1.10); /* Slightly increase size */
+  transform: scale(1.1); /* Slightly increase size */
 }
 
 #donation form {
