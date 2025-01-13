@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; */
 }
 
 body {
@@ -27,7 +28,8 @@ body {
   max-width: 1600px;
   max-height: 100px;
   padding: 24px 120px 24px 120px;
-  /* margin: 0 20px; */
+  /* padding: 24px 160px 24px 160px; */
+  /* margin: 0 auto; */
 }
 
 .btn-secondary {
@@ -554,6 +556,7 @@ select {
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
+
   background: rgb(255, 255, 255);
   /* width: 240px; */
   height: 128px;
@@ -565,7 +568,8 @@ select {
   line-height: 48px;
   letter-spacing: 0%;
   text-align: left;
-  background-color: rgba(115, 11, 11, 0.708); /* Change background color */
+  background-color: rgb(198, 228, 214);
+  /* background-color: rgba(115, 11, 11, 0.708); */
   color: white; /* Change text color */
   transform: scale(1.1); /* Slightly increase size */
 }
