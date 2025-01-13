@@ -387,10 +387,11 @@ select {
   /* background-position: center; */
 }
 
-.bg {
+#yunus {
   background-image: url("../assets/quote.svg");
-  background-position: top left, top left;
+  background-position: top left;
   background-repeat: no-repeat;
+  background-position: 2% 10%;
   /* background: rgba(14, 14, 14, 0.3); */
 }
 
@@ -700,7 +701,8 @@ button {
   transition: all 0.3s ease;
 }
 
-button:hover, #agreement:hover {
+button:hover,
+#agreement:hover {
   background-color: rgba(115, 11, 11, 0.708);
   color: black;
   transform: scale(1.1);
