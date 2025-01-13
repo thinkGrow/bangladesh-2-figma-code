@@ -326,8 +326,8 @@ select {
   margin-bottom: 24px;
 }
 
-#future .title{
-  margin-bottom: 12px;
+#future .title {
+  margin-bottom: 24px;
 }
 #future .cards .card {
   max-width: 410px;
@@ -358,7 +358,7 @@ select {
   border: none;
   padding: 11px 20px 11px 20px;
   /* color: white; */
-  color: black;
+  /* color: black; */
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 600;
@@ -367,6 +367,11 @@ select {
   text-align: left;
   cursor: pointer; /* Change cursor to a pointer */
   transition: all 0.3s ease;
+
+  /* background-color: rgb(198, 228, 214); */
+  /* background-color: rgba(115, 11, 11, 0.708); */
+  color: white; /* Change text color */
+  transform: scale(1.1); /* Slightly increase size */
 }
 
 #yunus {
@@ -498,6 +503,24 @@ select {
   border-radius: 8px;
   background: rgb(0, 106, 80);
   color: white;
+}
+
+#recent-news .read-more-btn button:hover {
+  border: none;
+  /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48; */
+  padding: 13px 26px 13px 26px;
+  border-radius: 8px;
+  /* background: rgb(0, 106, 80); */
+
+  color: white;
+  background-color: rgb(198, 228, 214);
+  /* background-color: rgba(115, 11, 11, 0.708); */
+  color: white; /* Change text color */
+  transform: scale(1.1); /* Slightly increase size */
 }
 
 #donation {
@@ -710,7 +733,12 @@ button {
 
 button:hover,
 #agreement:hover {
-  background-color: rgba(115, 11, 11, 0.708);
+  /* background-color: rgba(115, 11, 11, 0.708);
   color: black;
-  transform: scale(1.1);
+  transform: scale(1.1); */
+
+  background-color: rgb(198, 228, 214);
+  /* background-color: rgba(115, 11, 11, 0.708); */
+  color: white; /* Change text color */
+  transform: scale(1.1); /* Slightly increase size */
 }
